@@ -1,0 +1,49 @@
+.box {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100vh;
+}
+.box-secondary {
+  padding: 30px;
+  overflow: auto;
+}
+
+
+
+table{
+  border: 2px solid black;
+  width: 80%;
+  margin: auto;
+
+}
+
+th, td {
+  width: 20%;
+ text-align: left;
+ padding:1%;
+  margin-left: 5%;
+}
+th{
+  background-color: black;
+  color: white;
+}
+tr:hover{
+  background-color: rgb(184, 189, 189);
+
+}
+
+.box-primary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+@media screen and (max-width: 768px) {
+  .box-primary {
+    display: none;
+  }
+  .box {
+    grid-template-columns: 100%;
+  }
+}
