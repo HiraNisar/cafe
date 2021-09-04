@@ -1,0 +1,2 @@
+.box{display:grid;grid-template-columns:50% 50%;grid-template-rows:100vh}.box-secondary{padding:30px;overflow:auto}table{border:2px solid #000;width:80%;margin:auto}td,th{width:20%;text-align:left;padding:1%;margin-left:5%}th{background-color:#000;color:#fff}tr:hover{background-color:#b8bdbd}.box-primary{display:flex;justify-content:center;align-items:center;background-color:rgba(0,0,0,.9)}@media screen and (max-width:768px){.box-primary{display:none}.box{grid-template-columns:100%}}
+/*# sourceMappingURL=main.e1cedaa0.chunk.css.map */
